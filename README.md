@@ -1,5 +1,6 @@
 # AI Property Assistant
 
+
 An intelligent assistant that helps users inquire about plot/flat availability, pricing, developer details, and project info — all with a smooth AI-style experience.  
 Built with 💙 for the Hope AI Hackathon'25.
 
@@ -9,11 +10,13 @@ Built with 💙 for the Hope AI Hackathon'25.
 
 ## 🔥 Key Features
 
-- 🧠 AI-style chatbot response for unit search
-- 🔍 Property lookup by Unit Number (Flat/Plot)
-- 🗂️ Modular fullstack structure (Java + React)
-- ⚡ Built for fast load + modern UI with Tailwind
-- 🌐 Live hosted with Vercel + clean GitHub CI/CD
+- 🧠 AI-style chatbot reply with voice
+- 🔍 Search property by Unit No (Flat/Plot)
+- ⚡ Animated LLM-style typewriter effect
+- ⏳ Typing indicator (dots while thinking)
+- 🔊 Text-to-Speech integration (Web Speech API)
+- 🗂️ Modular Fullstack (Java + React + Tailwind)
+- 🌐 Frontend hosted live on Vercel
 
 ---
 
@@ -24,7 +27,7 @@ Built with 💙 for the Hope AI Hackathon'25.
 | Frontend  | React, Vite, Tailwind CSS              |
 | Backend   | Java 21, Spring Boot 3.5               |
 | API Comm  | REST API + Axios                       |
-| AI Logic  | LLM-style simulated reply (Expandable) |
+| AI Logic  | Simulated LLM response + TTS           |
 | Hosting   | Vercel (frontend), Local backend       |
 
 ---
@@ -33,27 +36,19 @@ Built with 💙 for the Hope AI Hackathon'25.
 
 ```
 /ai-property-assistant
-├── backend
-│   ├── src/main/java/com/dhanasekar/propertyassistant/
-│   │   ├── controller
-│   │   ├── service
-│   │   ├── model
-│   │   └── config
-│   └── application.properties
-│
-├── frontend
-│   ├── src/
-│   ├── pages/         → Home.tsx (main logic)
-│   ├── components/    → LLMBox.tsx, UI blocks
-│   ├── services/      → propertyService.ts
-├── tailwind.config.js
-├── vite.config.ts
-│
-├── data
-│   └── mock_properties.json
+├── backend/
+│ ├── controller/
+│ ├── service/
+│ ├── model/
+│ └── config/
+├── frontend/
+│ ├── pages/
+│ ├── components/
+│ ├── services/
+│ └── App.tsx
+├── data/
+│ └── mock_properties.json
 ├── README.md
-```
-
 ---
 
 ## 🚀 How to Run (Local Dev)
@@ -61,7 +56,8 @@ Built with 💙 for the Hope AI Hackathon'25.
 ### Backend
 ```bash
 cd backend
-./mvnw spring-boot:run
+mvn spring-boot:run
+API Endpoint: http://localhost:8080/api/properties/A101
 ```
 
 ### Frontend
@@ -69,6 +65,7 @@ cd backend
 cd frontend
 npm install
 npm run dev
+Runs at: http://localhost:5173
 ```
 
 ---
