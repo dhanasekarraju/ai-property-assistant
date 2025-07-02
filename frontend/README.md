@@ -1,6 +1,13 @@
-## 🚀 Live Demo
+# ⚛️ Frontend - AI Property Assistant
 
-[![Deploy](https://img.shields.io/badge/View-Live-blue?style=for-the-badge)](https://ai-property-assistant.vercel.app)
+This is the React + Vite + Tailwind CSS frontend for the AI Property Assistant project.
 
-![image](https://github.com/user-attachments/assets/dab9bff6-9a2b-46da-adfb-52d56101aae8)
+---
 
+## 📦 Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
