@@ -1,31 +1,31 @@
-## AI Property Assistant
+# AI Property Assistant
 
-An intelligent assistant that helps users inquire about plot/flat availability, pricing, developer details, and project information in a human-friendly way. Built for the **Hope AI Hackathon'25**.
+An intelligent assistant that helps users inquire about plot/flat availability, pricing, developer details, and project info — all with a smooth AI-style experience.  
+Built with 💙 for the Hope AI Hackathon'25.
 
----
-
-## 🔗 Live Project (Reference)
-https://realestatedigital.in
+[![View Live](https://img.shields.io/badge/View%20Live-%F0%9F%9A%80-blue?style=for-the-badge)](https://ai-property-assistant.vercel.app)
 
 ---
 
-## 💡 Key Features
+## 🔥 Key Features
 
-- 🧠 **AI Assistant Chatbot** that answers property-related questions
-- 🏠 Flat/Plot Search by project name, unit number, and status
-- 🗃️ Backend APIs to simulate real-world real estate data
-- 💬 LLM integration to generate human-like responses
-- 🛠️ Built using Java Spring Boot + React + Tailwind CSS
+- 🧠 AI-style chatbot response for unit search
+- 🔍 Property lookup by Unit Number (Flat/Plot)
+- 🗂️ Modular fullstack structure (Java + React)
+- ⚡ Built for fast load + modern UI with Tailwind
+- 🌐 Live hosted with Vercel + clean GitHub CI/CD
 
 ---
 
-## ⚙️ Tech Stack
+## 💻 Tech Stack
 
-- **Frontend:** React + Tailwind CSS
-- **Backend:** Java 21 + Spring Boot 3.5
-- **AI Layer:** OpenAI GPT (or HuggingFace models)
-- **Database:** In-memory mock data / static JSON / H2 (for now)
-- **Deployment:** Vercel (Frontend), Render (Backend), or local Docker
+| Layer     | Tech Stack                            |
+|-----------|----------------------------------------|
+| Frontend  | React, Vite, Tailwind CSS              |
+| Backend   | Java 21, Spring Boot 3.5               |
+| API Comm  | REST API + Axios                       |
+| AI Logic  | LLM-style simulated reply (Expandable) |
+| Hosting   | Vercel (frontend), Local backend       |
 
 ---
 
@@ -72,22 +72,21 @@ npm run dev
 
 ---
 
-## 📦 Sample API
+---
 
-```http
-GET /api/properties/{unitId}
-```
-Returns unit info: price, developer name, project name, status
+## ✨ Demo Screenshot
+
+![Demo](./![image](https://github.com/user-attachments/assets/bcd851c2-833d-4b56-a9dc-cd9b82434e0a))
 
 ---
 
-## ✨ Contribution Credit
+## 👨‍💻 Built by
 
-👨‍💻 Built by **Dhanasekar Raju**  
-🔗 [LinkedIn](https://linkedin.com/in/dhanasekar-raju-20471341)  
-🌐 [RealEstateDigital.in](https://realestatedigital.in)
+[Dhanasekar Raju](https://www.linkedin.com/in/dhanasekar-raju-20471341/)  
+💻 Fullstack Developer | Java + React | AWS + CI/CD | Team Lead
 
 ---
 
 ## 📜 License
-MIT
+
+[MIT](./LICENSE)
