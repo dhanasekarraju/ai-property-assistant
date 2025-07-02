@@ -1,0 +1,4 @@
+com/dhanasekar/propertyassistant/PropertyassistantApplication.class
+com/dhanasekar/propertyassistant/model/Property.class
+com/dhanasekar/propertyassistant/controller/PropertyController.class
+com/dhanasekar/propertyassistant/service/MockPropertyService.class
