@@ -43,10 +43,11 @@ Built with 💙 for the Hope AI Hackathon'25.
 │
 ├── frontend
 │   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── App.tsx
-│   └── tailwind.config.js
+│   ├── pages/         → Home.tsx (main logic)
+│   ├── components/    → LLMBox.tsx, UI blocks
+│   ├── services/      → propertyService.ts
+├── tailwind.config.js
+├── vite.config.ts
 │
 ├── data
 │   └── mock_properties.json
