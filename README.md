@@ -74,7 +74,9 @@ Runs at: http://localhost:5173
 
 ## ✨ Demo Screenshot
 
-![Demo]![image](https://github.com/user-attachments/assets/1f398f38-2e57-4ea8-b237-39c2a2dc0be7))
+## ✨ Demo Screenshot
+
+![AI Property Assistant Demo](https://i.ibb.co/84mVzDR3/Screenshot-from-2025-07-03-05-12-07.png)
 
 ---
 
