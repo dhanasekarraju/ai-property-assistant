@@ -41,10 +41,8 @@ export default function Home() {
 
 
     return (
-        <div className="px-4 py-8 max-w-xl mx-auto">
-            <h1 className="text-2xl font-bold mb-6 text-center text-gray-800">
-                AI Property Assistant
-            </h1>
+        <div className="p-6 max-w-xl mx-auto">
+            <h1 className="text-xl font-bold mb-4 text-center">AI Property Assistant</h1>
             <input
                 type="text"
                 value={unitNo}
